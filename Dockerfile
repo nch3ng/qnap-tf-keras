@@ -6,4 +6,4 @@ RUN pip install keras
 WORKDIR /notebook
 EXPOSE 8888
 
-CMD jupyter notebook --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token=
+CMD jupyter notebook --allow-root
